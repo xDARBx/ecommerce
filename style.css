@@ -1,0 +1,227 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui;
+    margin: 0%;
+}
+header{
+    background-color: #c70d00;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    box-shadow: 0 7px 8px -3px rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+    z-index: 98;
+}
+.container{
+    background-color: #ffffff;
+    max-width: 1200px;
+    text-align: center;
+    margin:auto;
+}
+.header-section{
+    background-color: #c70d00;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+.header-section div{
+    position: relative;
+}
+.header-section p{
+    position: absolute;
+    top: -24px;
+    right: -8px;
+    background-color: #fff;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: system-ui;
+    line-height: 18px;
+}
+.logo{
+    width: 164px;
+    height: 84px;
+    cursor: pointer;
+}
+.logo:hover{
+    width: 227px;
+    height: 124px;
+    transition-duration: .5s;
+}
+
+#banner{
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 90px;
+}
+#banner img{
+    width: 100%;
+}
+#search {
+    padding: 10px;
+    width: 25%;
+    height:30px;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 0px 5px 5px 5px black;
+}
+
+#login {
+    width: 10%;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 5px black;
+    box-shadow: -10px 5px 5px 5px black;
+}
+
+#login:hover {
+    width: 10%;
+    height: 50px;
+    border-radius: 20px;
+    border: solid 5px rgb(161, 0, 0);
+    box-shadow: -10px 5px 5px 5px rgb(122, 0, 0);
+}
+
+/*.cart{
+    
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}*/
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    display: none;
+    min-width: 290px;
+}
+
+/*.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+/*end header*/
+.products{
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 60px; */
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carts{
+    background-color: rgb(116, 117, 117);
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(20, 20, 20);
+    padding-bottom: 34px;
+    margin-bottom: 20px;
+    
+}
+.carts img{
+    height: 100%;
+    width: 100%;
+}
+.carts p{
+    font-family: system-ui;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+.carts div p{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: red;
+    color: #fff;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.carts div{
+    background-color:white;
+    position: relative;
+}
+.carts a{
+    font-family: system-ui;
+    text-decoration: none;
+    background: red;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.carts a:hover{
+    background: #fff;
+    color: red;
+    border: solid 2px red;
+    transition-duration: .3s;
+}
+/* .carts a:hover + .cart-products{
+    display: block;
+} */
+/*float cart*/
+.cart-products .item img{
+    width: 115px;
+}
+
+.cart-products .item{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+.cart-products .item .item-content{
+    margin: 0 19px;
+    width: 201px;
+}
+.cart-products .item .item-content h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item .item-content h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.cart-products .item span{
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.cart-products h3{
+    margin-bottom: 0;
+}
+.cart-products .item .item-content h5.cart-price{
+    font-weight: 700;
+}
+
+/*style to btn close*/
+p.close-btn{
+    top: -4px;
+    right: 15px;
+    cursor: pointer;
+    color: #000;
+}
+
+footer {
+    height: 100%;
+    background-color: #c70505;
+}
+
+.animate__animated.animate__flip {
+    --animate-duration: 8s;
+    
+  }

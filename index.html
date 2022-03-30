@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xDARBx -Computer Shop-</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-section container">
+            
+            <img class="logo" src="./images/logoShop.png" alt="">
+            <input class="animate__animated animate__flip" type="search" name="search" id="search" placeholder="Que desea buscar">
+            <button id="login" type="submit">LOGIN</button>
+            
+            <!--<div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>Mi Carrito</h3>
+                <div class="card-items">-->
+                    <!-- <div class="item">
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50$</h5>
+                            <h6>Cantidad: 3</h6>
+                        </div>
+                        <span>X</span>
+                    </div>
+    
+                    <div class="item">
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50$</h5>
+                            <h6>Amount: 3</h6>
+                        </div>
+                        <span class="delete-product" data-id="">X</span>
+                    </div> -->
+              <!--  </div>
+                <h2>Total: $<strong class="price-total">0</strong> </h2>
+            </div>
+        </div>-->
+    </header>
+    
+        
+    
+        <!--<img onmouseover="showCart(this)" class="cart" src="./images/cart.png" alt="">
+            <p class="count-product">0</p>
+        
+            <img onmouseover="showCart(this)" class="cart" src="./images/cart.png" alt="">
+            <p class="count-product">0</p>-->
+    
+    <section class="container">
+        <div id="banner">
+        <img src="./images/banner.png" alt="banne-promociones">
+        </div> 
+        <div class="products">
+            
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cooler0.jpg" alt="">
+                    <p>$<span>20</span></p>
+                </div>
+                <p class="title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="1" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cooler1.jpg" alt="">
+                    <p>$<span>35</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" class="btn-add-cart" data-id="2">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cooler2.jpg" alt="">
+                    <p>$<span>15.50</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="3" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cooler3.jpg" alt="">
+                    <p>$<span>20.20</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="4" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/pasta0.jpg" alt="">
+                    <p>$<span>19</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="5" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/pasta1.jpg" alt="">
+                    <p>$<span>45</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="6" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/pasta2.png" alt="">
+                    <p>$<span>23.99</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="7" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/pasta3.jpg" alt="">
+                    <p>$<span>50</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="8" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cable0.jpg" alt="">
+                    <p>$<span>16</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="9" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cable1.jpg" alt="">
+                    <p>$<span>17.50</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
+                <a href="" data-id="10" class="btn-add-cart">Agregar</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="./images/products/cable2.jpg" alt="">
+                    <p>$<span>45</span></p>
+                </div>
+                <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur. </p>
+                <a href="" data-id="11" class="btn-add-cart">Agregar</a>
+            </div>
+        </div>
+        
+        <form action="http://www.sitiowebfalso.com/falso.php" method="get">
+            <fieldset>
+                <legend>
+                    Datos Personales
+                </legend>
+                <label>
+                    Nombres:
+                    <input id="nombre1" type="text" name="nombres" size="30" placeholder="Ingrese su Nombre completo" required>
+                </label>
+                <br />
+                <label>
+                    Asunto:
+                    <input id="asunto" type="text" name="asunto" size="30" placeholder="Ingrese un asunto" required>
+                </label>
+                <br />
+
+                <label>
+                    Correo:
+                    <input id="correo" type="email" name="correo" size="30" placeholder="Ingrese su E-mail" required>
+                </label>
+                <br>
+                <p>
+                    <label for="mensaje">
+                        Mensaje:
+                    
+                </p>
+                <br>
+                <textarea id="mensaje" size="30" placeholder="Ingrese su mensaje" required>
+                </textarea>
+                </label>
+            
+                <input id="btn" type="submit" value="ENVIAR" disabled/>
+            </fieldset>
+        </form>
+        <footer>
+            <img class="logo" src="./images/logoShop.png" alt="">
+            <h3>Designe by <span>DARB 2022</span>
+            </h3>
+        </footer>
+    </section>
+
+    
+
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+    <script src="./custom.js" ></script>
+</body>
+</html>
