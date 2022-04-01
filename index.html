@@ -15,6 +15,7 @@
             
             <img class="logo" src="./images/logoShop.png" alt="">
             <input class="animate__animated animate__flip" type="search" name="search" id="search" placeholder="Que desea buscar">
+            <img id="lupa" src="./images/lupa.png" alt="buscar">
             <button id="login" type="submit">LOGIN</button>
             
             <!--<div class="cart-products" id="products-id">
@@ -56,14 +57,19 @@
     
     <section class="container">
         <div id="banner">
-        <img src="./images/banner.png" alt="banne-promociones">
+        <img src="./images/banner.jpg" alt="banne-promociones">
+        <label for="dark-mode" class="dark-mode-button">
+            <input type="radio" name="" id="dark-mode" onclick="document.documentElement.classList.toggle('dark-mode')">
+            <img id="dark-icon" class="dark-icon" src="./images/icon.png" alt="">
+        </label>
+        
         </div> 
         <div class="products">
             
             <div class="carts">
                 <div>
                     <img src="./images/products/cooler0.jpg" alt="">
-                    <p>$<span>20</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="1" class="btn-add-cart">Agregar</a>
@@ -71,7 +77,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/cooler1.jpg" alt="">
-                    <p>$<span>35</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" class="btn-add-cart" data-id="2">Agregar</a>
@@ -79,7 +85,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/cooler2.jpg" alt="">
-                    <p>$<span>15.50</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="3" class="btn-add-cart">Agregar</a>
@@ -87,7 +93,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/cooler3.jpg" alt="">
-                    <p>$<span>20.20</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="4" class="btn-add-cart">Agregar</a>
@@ -95,7 +101,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/pasta0.jpg" alt="">
-                    <p>$<span>19</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="5" class="btn-add-cart">Agregar</a>
@@ -103,7 +109,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/pasta1.jpg" alt="">
-                    <p>$<span>45</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="6" class="btn-add-cart">Agregar</a>
@@ -111,7 +117,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/pasta2.png" alt="">
-                    <p>$<span>23.99</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="7" class="btn-add-cart">Agregar</a>
@@ -119,7 +125,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/pasta3.jpg" alt="">
-                    <p>$<span>50</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="8" class="btn-add-cart">Agregar</a>
@@ -127,7 +133,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/cable0.jpg" alt="">
-                    <p>$<span>16</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="9" class="btn-add-cart">Agregar</a>
@@ -135,7 +141,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/cable1.jpg" alt="">
-                    <p>$<span>17.50</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur.</p>
                 <a href="" data-id="10" class="btn-add-cart">Agregar</a>
@@ -143,7 +149,7 @@
             <div class="carts">
                 <div>
                     <img src="./images/products/cable2.jpg" alt="">
-                    <p>$<span>45</span></p>
+                    <p>$<span>400</span></p>
                 </div>
                 <p class="title"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt natus, similique quas debitis quia voluptas ratione provident voluptatum exercitationem quos aut impedit tenetur. </p>
                 <a href="" data-id="11" class="btn-add-cart">Agregar</a>
@@ -153,10 +159,10 @@
         <form action="http://www.sitiowebfalso.com/falso.php" method="get">
             <fieldset>
                 <legend>
-                    Datos Personales
+                    CONTACTANOS
                 </legend>
                 <label>
-                    Nombres:
+                    Nombre:
                     <input id="nombre1" type="text" name="nombres" size="30" placeholder="Ingrese su Nombre completo" required>
                 </label>
                 <br />
@@ -171,12 +177,10 @@
                     <input id="correo" type="email" name="correo" size="30" placeholder="Ingrese su E-mail" required>
                 </label>
                 <br>
-                <p>
-                    <label for="mensaje">
-                        Mensaje:
-                    
-                </p>
                 <br>
+                
+                <label for="mensaje">
+                    Mensaje:
                 <textarea id="mensaje" size="30" placeholder="Ingrese su mensaje" required>
                 </textarea>
                 </label>

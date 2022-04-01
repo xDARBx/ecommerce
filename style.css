@@ -56,18 +56,25 @@ header{
 #banner{
     width: 100%;
     background-color: #ffffff;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 #banner img{
     width: 100%;
 }
 #search {
-    padding: 10px;
-    width: 25%;
+    padding: 20px;
+    width: 30%;
     height:30px;
     border-radius: 10px;
     border: solid 1px black;
     box-shadow: 0px 5px 5px 5px black;
+}
+
+#lupa {
+    position: relative;
+    left: -220px;
+    width: 20px;
+    height: 20px;
 }
 
 #login {
@@ -219,9 +226,49 @@ p.close-btn{
 footer {
     height: 100%;
     background-color: #c70505;
+    
 }
 
 .animate__animated.animate__flip {
     --animate-duration: 8s;
     
-  }
+}
+
+.dark-mode-button {
+    display: inline-block;
+    position: relative;
+    top: -370px;
+    left: -530px;
+    padding: 0px;
+    background: transparent;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+
+#dark-icon {
+    display:block;
+    top: -200px;
+    max-width: 70px;
+    height: 70px;
+}
+
+#dark-icon:hover {
+    filter: invert(100%);
+}
+
+html.dark-mode {
+    filter: invert(100%);
+}
+
+html.dark-mode img {
+    filter: invert(100%);
+}
+
+html.dark-mode header {
+    filter: invert(100%);
+}
+
+html.dark-mode footer{
+    filter: invert(100%);
+}
