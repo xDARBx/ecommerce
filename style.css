@@ -229,6 +229,36 @@ footer {
     
 }
 
+#wb {
+    position: absolute;
+    margin-top: 2120px;
+    right: 1200px;
+    width: 150px;
+    height: 150px;
+    z-index: 9999;
+    
+}
+
+#ig {
+    position: absolute;
+    margin-top: 2156px;
+    right: 1110px;
+    width: 75px;
+    height: 75px;
+    z-index: 9999;
+    
+}
+
+#mapa {
+    position: absolute;
+    margin-top: -105px;
+    right: 200px;
+    width: 400px;
+    height: 150px;
+    z-index: 9999;
+
+}
+
 .animate__animated.animate__flip {
     --animate-duration: 8s;
     
@@ -271,4 +301,13 @@ html.dark-mode header {
 
 html.dark-mode footer{
     filter: invert(100%);
+}
+html.dark-mode p {
+    filter: invert(100%);
+}
+html.dark-mode .btn-add-cart {
+    filter: invert(100%);
+}
+html.dark-mode .lupa {
+    filter: invert(0%);
 }
